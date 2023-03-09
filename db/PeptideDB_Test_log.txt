@@ -1,0 +1,140 @@
+2023-03-09 12:47:25.4369 PeptideDB_Test TRACE Initializing PeptideDB at: /home/roy/repos/PeptideSpectrumMatching/./db 
+2023-03-09 12:47:25.4470 PeptideDB_Test TRACE searchDBParams: { Name = "Test"
+  DbFolder = "/home/roy/repos/PeptideSpectrumMatching/./db"
+  FastaPath = "/var/data/proteins/prot_274.fasta"
+  FastaHeaderToName = <fun:parseProteinIdUsing@180>
+  Protease = { Name = "Trypsin"
+               Expression = <fun:Trypsin@175> }
+  MinMissedCleavages = 0
+  MaxMissedCleavages = 2
+  MaxMass = 15000.0
+  MinPepLength = 4
+  MaxPepLength = 65
+  IsotopicMod = [{ Name = "N15"
+                   SourceEl = Di { Symbol = "N"
+                                   X = { AtomicSymbol = "N"
+                                         AtomicNumberZ = 7
+                                         MassNumber = 14
+                                         Mass = 14.003074
+                                         NatAbundance = 0.99636
+                                         RelAtomicMass = 14.0067 }
+                                   Xcomp = 0.99636
+                                   X1 = { AtomicSymbol = "N"
+                                          AtomicNumberZ = 7
+                                          MassNumber = 15
+                                          Mass = 15.0001089
+                                          NatAbundance = 0.00364
+                                          RelAtomicMass = 14.0067 }
+                                   X1comp = 0.00364
+                                   Root = -273.7252747 }
+                   TargetEl = Di { Symbol = "N15"
+                                   X = { AtomicSymbol = "N"
+                                         AtomicNumberZ = 7
+                                         MassNumber = 15
+                                         Mass = 15.0001089
+                                         NatAbundance = 0.00364
+                                         RelAtomicMass = 14.0067 }
+                                   Xcomp = 0.99636
+                                   X1 = { AtomicSymbol = "N"
+                                          AtomicNumberZ = 7
+                                          MassNumber = 14
+                                          Mass = 14.003074
+                                          NatAbundance = 0.99636
+                                          RelAtomicMass = 14.0067 }
+                                   X1comp = 0.00364
+                                   Root = -273.7252747 } }]
+  MassMode = Monoisotopic
+  MassFunction = <fun:memoizeP@25>
+  FixedMods = []
+  VariableMods =
+                [{ Name = "Oxidation'Met'"
+                   Accession = "35"
+                   Description = "Oxidation"
+                   IsBiological = true
+                   Composition = "O"
+                   Site = [Specific (Met, Residual)]
+                   MType = Plus
+                   XModCode = "ox" };
+                 { Name = "Acetyl(Protein N-Term)"
+                   Accession = "1"
+                   Description = "Acetylation of the protein N-terminus"
+                   IsBiological = true
+                   Composition = "C2H2O"
+                   Site = [Any ProteinNterm]
+                   MType = Plus
+                   XModCode = "ac" }]
+  VarModThreshold = 4 } 
+2023-03-09 12:47:25.6783 PeptideDB_Test TRACE Successfully created PeptideDB 
+2023-03-09 12:47:25.6783 PeptideDB_Test TRACE Set Index on data base if not present. 
+2023-03-09 12:47:25.6838 PeptideDB_Test TRACE Set Index on data base if not present: finished 
+2023-03-09 12:47:25.6838 PeptideDB_Test TRACE Done 
+2023-03-09 12:55:25.7880 PeptideDB_Test TRACE Initializing PeptideDB at: /home/roy/repos/PeptideSpectrumMatching/db 
+2023-03-09 12:55:25.7981 PeptideDB_Test TRACE searchDBParams: { Name = "Test"
+  DbFolder = "/home/roy/repos/PeptideSpectrumMatching/db"
+  FastaPath = "/var/data/proteins/prot_274.fasta"
+  FastaHeaderToName = <fun:parseProteinIdUsing@180>
+  Protease = { Name = "Trypsin"
+               Expression = <fun:Trypsin@175> }
+  MinMissedCleavages = 0
+  MaxMissedCleavages = 2
+  MaxMass = 15000.0
+  MinPepLength = 4
+  MaxPepLength = 65
+  IsotopicMod = [{ Name = "N15"
+                   SourceEl = Di { Symbol = "N"
+                                   X = { AtomicSymbol = "N"
+                                         AtomicNumberZ = 7
+                                         MassNumber = 14
+                                         Mass = 14.003074
+                                         NatAbundance = 0.99636
+                                         RelAtomicMass = 14.0067 }
+                                   Xcomp = 0.99636
+                                   X1 = { AtomicSymbol = "N"
+                                          AtomicNumberZ = 7
+                                          MassNumber = 15
+                                          Mass = 15.0001089
+                                          NatAbundance = 0.00364
+                                          RelAtomicMass = 14.0067 }
+                                   X1comp = 0.00364
+                                   Root = -273.7252747 }
+                   TargetEl = Di { Symbol = "N15"
+                                   X = { AtomicSymbol = "N"
+                                         AtomicNumberZ = 7
+                                         MassNumber = 15
+                                         Mass = 15.0001089
+                                         NatAbundance = 0.00364
+                                         RelAtomicMass = 14.0067 }
+                                   Xcomp = 0.99636
+                                   X1 = { AtomicSymbol = "N"
+                                          AtomicNumberZ = 7
+                                          MassNumber = 14
+                                          Mass = 14.003074
+                                          NatAbundance = 0.99636
+                                          RelAtomicMass = 14.0067 }
+                                   X1comp = 0.00364
+                                   Root = -273.7252747 } }]
+  MassMode = Monoisotopic
+  MassFunction = <fun:memoizeP@25>
+  FixedMods = []
+  VariableMods =
+                [{ Name = "Oxidation'Met'"
+                   Accession = "35"
+                   Description = "Oxidation"
+                   IsBiological = true
+                   Composition = "O"
+                   Site = [Specific (Met, Residual)]
+                   MType = Plus
+                   XModCode = "ox" };
+                 { Name = "Acetyl(Protein N-Term)"
+                   Accession = "1"
+                   Description = "Acetylation of the protein N-terminus"
+                   IsBiological = true
+                   Composition = "C2H2O"
+                   Site = [Any ProteinNterm]
+                   MType = Plus
+                   XModCode = "ac" }]
+  VarModThreshold = 4 } 
+2023-03-09 12:55:25.9039 PeptideDB_Test TRACE Successfully created PeptideDB 
+2023-03-09 12:55:25.9039 PeptideDB_Test TRACE Set Index on data base if not present. 
+2023-03-09 12:55:25.9039 PeptideDB_Test TRACE Set Index on data base if not present: finished 
+2023-03-09 12:55:25.9039 PeptideDB_Test TRACE Done 

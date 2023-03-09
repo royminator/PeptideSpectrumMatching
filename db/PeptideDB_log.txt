@@ -1,0 +1,4 @@
+2023-03-09 12:47:25.3289 PeptideDB TRACE CLIArguments [FastaPath "/var/data/proteins/prot_274.fasta"; OutputDirectory "./db";
+ ParamFile "config/peptideDbParams.json"] 
+2023-03-09 12:55:25.6814 PeptideDB TRACE CLIArguments [FastaPath "/var/data/proteins/prot_274.fasta"; OutputDirectory "db";
+ ParamFile "config/peptideDbParams.json"] 
